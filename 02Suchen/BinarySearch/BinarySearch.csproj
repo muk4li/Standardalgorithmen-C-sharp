@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="ClBinarySearch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -53,6 +53,10 @@
     <ProjectReference Include="..\..\00Fundament\Anzeigen\Anzeigen.csproj">
       <Project>{4ed9c508-1761-4e93-b37c-eae0994854d6}</Project>
       <Name>Anzeigen</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Standardalgorithmen %28C#%29\Standardalgorithmen %28C#%29.csproj">
+      <Project>{0606a023-fee9-4054-8b8d-b2d39f1254ee}</Project>
+      <Name>Standardalgorithmen %28C#%29</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
