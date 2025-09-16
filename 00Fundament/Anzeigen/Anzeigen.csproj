@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{351E5731-7F4A-4431-8920-F913284E51C6}</ProjectGuid>
+    <ProjectGuid>{4ED9C508-1761-4E93-B37C-EAE0994854D6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BinarySearch</RootNamespace>
-    <AssemblyName>BinarySearch</AssemblyName>
+    <RootNamespace>Anzeigen</RootNamespace>
+    <AssemblyName>Anzeigen</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,12 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\00Fundament\Anzeigen\Anzeigen.csproj">
-      <Project>{4ed9c508-1761-4e93-b37c-eae0994854d6}</Project>
-      <Name>Anzeigen</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
