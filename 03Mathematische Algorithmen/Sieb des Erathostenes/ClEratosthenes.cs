@@ -28,11 +28,11 @@ namespace Sieb_des_Eratosthenes
                     continue;
                 }
 
-                for (int j = i + i; j < kopie.Length; j += i)
+                for (int j = i + i; j < kopie.Length; j += i)   // jedes vielfache einer unmarkierten wird markiert, also auf 0 gesetzt
                 {
                     kopie[j] = 0;
                 }
-                array += kopie[i] + " ";
+                array += kopie[i] + " ";    // da wir alle markierten skippen .... kommen nur die Primzahlen raus, sprich jeweils die erste die keinen Teiler vor sich hatte.
             }
             return array;
         }
